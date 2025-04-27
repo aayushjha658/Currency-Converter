@@ -1,70 +1,70 @@
-# Currency-Converter
-🌎 Currency Converter App
-A simple and powerful Currency Converter application built with React.js.
-This app allows users to convert currencies across all countries using a live Currency Converter API.
+# Getting Started with Create React App
 
-🚀 Features
-Real-time currency conversion
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Supports all international currencies
+## Available Scripts
 
-User-friendly and responsive UI
+In the project directory, you can run:
 
-Fast and lightweight
+### `npm start`
 
-Error handling for invalid inputs
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-🛠️ Tech Stack
-React.js
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-JavaScript (ES6+)
+### `npm test`
 
-HTML5 & CSS3
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Currency Converter API (like ExchangeRate-API or any free service)
+### `npm run build`
 
-📦 Installation
-bash
-Copy
-Edit
-git clone https://github.com/your-username/currency-converter-react.git
-cd currency-converter-react
-npm install
-npm start
-The app will run at: http://localhost:3000
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-🔑 API Setup
-Get a free API key from ExchangeRate-API (or the service you are using).
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Create a .env file at the root of your project:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-bash
-Copy
-Edit
-REACT_APP_API_KEY=your_api_key_here
-Use the environment variable in your code to fetch currency data.
+### `npm run eject`
 
-![Screenshot 2025-04-27 113117]C:\Users\Lenovo\currency-converter\src\Screenshots\Screenshot 2025-04-27 113117.png
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-💡 How It Works
-Fetch the list of available currencies when the app loads.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-User selects the "From" and "To" currencies.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-User enters the amount to convert.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-App fetches the conversion rate using the API and shows the converted value instantly.
+## Learn More
 
-🤝 Contributing
-Contributions, issues and feature requests are welcome!
-Feel free to fork the repo and submit a pull request.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-🧑‍💻 Author
-Aayush Jha
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-📄 License
-This project is licensed under the MIT License.
-See the LICENSE file for details.
+### Code Splitting
 
-🌟 Show Your Support
-If you like this project, give it a ⭐️ on GitHub!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
